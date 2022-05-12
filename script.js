@@ -30,6 +30,3 @@ for(let key in obj) {
 	console.log(key);
 }
 
-function firstLife () {  
-	alert('Hello world!');
-}

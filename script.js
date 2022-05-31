@@ -16,17 +16,8 @@ const a = prompt("Last film?", ""),
 	  d = prompt("Rate it", "");
 
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+//personalMovieDB.movies[a] = b;
+//stapersonalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
-
-let obj = {
-	1:1, 
-	0:0
-};
-
-for(let key in obj) {
-	console.log(key);
-}
 
